@@ -342,3 +342,13 @@ textarea {
   text-decoration: none;
   font-size: 26px;
 }
+.Reject {
+  background-color: #d32f2f;
+  color: white;
+}
+.value {
+  font-size: 12px;
+}
+.partial-approve {
+  background-color: orange;
+}

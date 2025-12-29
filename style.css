@@ -132,17 +132,7 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
-th,
-td {
-  padding: 10px;
-  border-bottom: 1px solid #eef0f7;
-  text-align: left;
-}
-th {
-  background: #fbfbff;
-  font-weight: 700;
-  color: #111;
-}
+
 button {
   background-color: #00293d;
   padding: 6px;
