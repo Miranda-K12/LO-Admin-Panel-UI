@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loan Details</title>
+    <link rel="stylesheet" href="./details.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" class="bank-logo">Bank Logo</a>
+
+      <div class="user-info">
+        <div class="user-icon">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+          >
+            <circle cx="12" cy="8" r="4" stroke-width="2" />
+            <path
+              d="M5 20v-2c0-2.2 1.8-4 4-4h6c2.2 0 4 1.8 4 4v2"
+              stroke-width="2"
+            />
+          </svg>
+        </div>
+        <div class="user-details">
+          <div class="user-name">LO-მირანდა ყაჩლავაშვილი</div>
+        </div>
+      </div>
+    </header>
+    <div class="card hidden" data-id="A-77801">
+      <div class="card-header">
+        <h3>სესხის დეტალები</h3>
+        <div class="meta">
+          <span class="pill">Assigned to: LO • მირანდა ყაჩლავაშვილი</span>
+          <span class="pill">Case Status: IN_PROGRESS</span>
+          <span class="pill">case_id:0365</span>
+        </div>
+        <span class="status approve">APPROVE</span>
+      </div>
+
+      <div class="section">
+        <p><strong>განაცხადის ID:</strong> A-77801</p>
+      </div>
+
+      <div class="section">
+        <h4>მსესხებელი</h4>
+
+        <div class="info-grid">
+          <div><span class="label">სახელი</span><span>ნინო</span></div>
+          <div><span class="label">გვარი</span><span>მიქელაძე</span></div>
+          <div>
+            <span class="label">პირადი ნომერი</span><span>01001001001</span>
+          </div>
+          <div>
+            <span class="label">დაბადების თარიღი</span><span>1990-06-18</span>
+          </div>
+          <div>
+            <span class="label">ტელეფონი</span><span>+995 598 12 12 12</span>
+          </div>
+
+          <div>
+            <span class="label">ელ-ფოსტა</span><span>nino1212@gmail.com</span>
+          </div>
+          <div>
+            <span class="label">კლიენტის ყოველთვიური შემოსავალი</span>
+            <span class="value">2,500 ₾</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h4>დეტალური ინფორმაცია სესხის შესახებ</h4>
+
+        <div class="info-grid">
+          <div>
+            <span class="label">მოთხოვნილი თანხა</span
+            ><span class="value">12,000 ₾</span>
+          </div>
+          <div>
+            <span class="label">სესხის საპროცენტო განაკვეთი(წლიური)</span
+            ><span class="value">17.5%</span>
+          </div>
+          <div>
+            <span class="label">სესხის ტიპი</span
+            ><span class="value">სამომხმარებლო სესხი</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h4>სისტემის გადაწყვეტილება და რეკომენდაციები</h4>
+
+        <div class="info-grid">
+          <div>
+            <span class="label">სესხის სტატუსი</span>
+            <span class="value status approve" style="color: white"
+              >დამტკიცებული</span
+            >
+          </div>
+          <div>
+            <span class="label">სესხის ვადა</span>
+            <span class="value">24 თვე</span>
+          </div>
+
+          <div>
+            <span class="label">დამტკიცებული თანხის ოდენობა</span>
+            <span class="value">12,000 ₾</span>
+          </div>
+          <div>
+            <span class="label">თვიური გადასახადი</span>
+            <span class="value">600 ₾</span>
+          </div>
+
+          <div>
+            <span class="label">გადაწყვეტილების თარიღი</span>
+            <span class="value">2025-12-13</span>
+          </div>
+
+          <div>
+            <span class="label">Manual trigger reason code</span>
+            <span class="value">TR-RISK-01</span>
+          </div>
+
+          <div>
+            <span class="label">სისტემის გადაწყვეტილების საფუძველი</span>
+            <span class="value"
+              >RC-LIMIT-01-მოთხოვნილი თანხა ჯდება საკრედიტო პოლიტიკის
+              ლიმიტებში</span
+            >
+          </div>
+          <div>
+            <span class="label">Manual Trigger-ის გამომწვევი მიზეზი</span>
+            <span class="value">საკრედიტო ქულა ზღვართან ახლოსაა</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h4>დოკუმენტები</h4>
+
+        <table class="docs-table">
+          <thead>
+            <tr>
+              <th>დოკუმენტი</th>
+              <th>ტიპი</th>
+              <th>სტატუსი</th>
+              <th>მოქმედება</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ID Card.pdf</td>
+              <td>პირადობის დოკუმენტი</td>
+              <td><span class="doc-status ok">ატვირთულია</span></td>
+              <td>
+                <button class="doc-btn">ნახვა</button>
+                <button class="doc-btn">ჩამოტვირთვა</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Salary Statement.pdf</td>
+              <td>შემოსავლის დამადასტურებელი</td>
+              <td><span class="doc-status ok">ატვირთულია</span></td>
+              <td>
+                <button class="doc-btn">ნახვა</button>
+                <button class="doc-btn">ჩამოტვირთვა</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="upload-box">
+          <label class="upload-label">
+            <input type="file" class="docUpload" hidden />
+            + ახალი დოკუმენტის ატვირთვა
+          </label>
+
+          <div class="upload-picked hidden">
+            <span class="file-info"></span>
+            <button type="button" class="remove-file">✕</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h4>
+          კომენტარი
+          <span class="required">*</span>
+        </h4>
+        <textarea placeholder="დაამატეთ კომენტარი..." required></textarea>
+      </div>
+      <div class="error-msg hidden" id="commentError">
+        კომენტარი სავალდებულოა და უნდა შეიცავდეს მინიმუმ 3 სიტყვას
+      </div>
+
+      <div class="section actions">
+        <button class="btn manager" id="btnRisk">
+          რისკ-მენეჯერთან გაგზავნა
+        </button>
+        <button class="btn head" id="btnHead">
+          დეპარტამენტის ხელმძღვანელთან გაგზავნა
+        </button>
+      </div>
+
+      <div class="section audit">
+        <p>Audit trail / ქეისის ისტორია</p>
+        <p>2025-12-13 10:02 — ქეისი შეიქმნა</p>
+        <p>2025-12-13 10:05 — სისტემის შეფასება დასრულდა</p>
+        <p>2025-12-13 10:10 — სტატუსი: APPROVE</p>
+      </div>
+    </div>
+
+    <div class="card hidden" data-id="A-77815">
+      <h2>სესხის დეტალები</h2>
+      <p>სახელი: ეკა</p>
+      <p>გვარი: ნადირაძე</p>
+      <p>თანხა: 14,500 ₾</p>
+      <p>სტატუსი: N/A</p>
+    </div>
+
+    <div class="card hidden" data-id="A-77802">
+      <h2>მარი გიორგაძე</h2>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
